@@ -281,7 +281,8 @@ if prices is not None:
 
         # Tạo mô hình LSTM
         model = Sequential([
-            LSTM(1024, input_shape=train_data.shape),
+            LSTM(1024, return_sequences=True ,input_shape=train_data.shape),
+            LSTM(1024, return_sequences=False)
             Flatten(),
             Dense(train_data.shape[1], activation='softmax')
         ])
