@@ -1,7 +1,5 @@
 backtrader
 
-os
-
 numpy
 
 pandas
