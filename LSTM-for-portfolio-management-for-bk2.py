@@ -318,7 +318,7 @@ if prices is not None:
 
 
         # Vẽ biểu đồ khối vuông
-        plt.figure(figsize=(15, 15))
+        plt.figure(figsize=(30, 30))
         squarify.plot(sizes=square_plot_test['Tỷ trọng'], label=square_plot_test['Nhãn'], color=colors, alpha=.8, edgecolor='black', linewidth=2, text_kwargs={'fontsize':10})
         plt.axis('off')
         st.pyplot(plt)
