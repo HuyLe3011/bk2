@@ -3,7 +3,18 @@
 
 # # Import thư viện
 
+import os
+import random
+import numpy as np
+import tensorflow as tf
 
+# Đặt seed cố định cho Python, NumPy, và TensorFlow
+seed_value = 42  # Bạn có thể thay đổi seed theo ý muốn
+
+os.environ['PYTHONHASHSEED'] = str(seed_value)
+random.seed(seed_value)
+np.random.seed(seed_value)
+tf.random.set_seed(seed_value)
 
 import warnings
 warnings.filterwarnings('ignore')
