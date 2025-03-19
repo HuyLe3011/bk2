@@ -19,5 +19,6 @@ vnstock==0.2.9.2.3
 scikeras
 
 beautifulsoup4
-
+Pillow
 IPython
+plotly
