@@ -14,7 +14,7 @@ tensorflow
 
 streamlit
 
-vnstock
+vnstock==0.2.9.0
 
 scikeras
 
